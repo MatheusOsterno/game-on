@@ -43,7 +43,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;   
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;}
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
 #logo{
 
     width: 300px;
@@ -54,6 +55,7 @@ header {
 }
 
 nav{
+    z-index: 100;
     display: flex;
     justify-content: space-between;
     height: 60px;
@@ -105,6 +107,7 @@ ul li {
 ul li a {
     color: white;
 }
+
 
 @media (min-width:700px) {
     #menu-button,

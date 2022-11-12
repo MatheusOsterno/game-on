@@ -110,4 +110,17 @@ div {
     margin-left: -80%;
 }
 
+@media (min-width:1200px) {
+    .content{ 
+        width: 60vw;
+        height:  45vh;
+    }
+}
+@media (min-width:1500px) {
+    .content{ 
+        max-width: 65vw;
+        height:  50vh;
+    }
+}
+
 </style>
