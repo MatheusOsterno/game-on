@@ -18,6 +18,24 @@
             <p>Lorem Ipsum is and scrambleesf Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <a href="/">Leia mais</a>
         </div>
+        <div class="card">
+            <div class="card-image game1"></div>
+            <h2>Game 1</h2>
+            <p>Lorem Ipsum is and scrambleesf Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="/">Leia mais</a>
+        </div>
+        <div class="card">
+            <div class="card-image game2"></div>
+            <h2>Game 2</h2>
+            <p>Lorem Ipsum is and scrambleesf Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="/">Leia mais</a>
+        </div>
+        <div class="card">
+            <div class="card-image game3"></div>
+            <h2>Game 3</h2>
+            <p>Lorem Ipsum is and scrambleesf Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <a href="/">Leia mais</a>
+        </div>
     </section>
 </template>
 <script>
@@ -40,6 +58,8 @@ export default {
     height: 450px;
     margin: 10px;
     border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card-image {
@@ -78,5 +98,11 @@ export default {
 .game3 {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU4YrUoxTKGA1nNniUzBERqZXgJk6DmDD61w&usqp=CAU');
     height: 150px;
-}     
+}
+
+.card:hover {
+    background-color: #058905;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
 </style>

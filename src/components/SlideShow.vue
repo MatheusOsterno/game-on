@@ -31,7 +31,6 @@
             <label class="bar" for="slide5"></label>
         </div>
     </div>
-
 </template>
 <script>
 export default {
@@ -50,7 +49,7 @@ img{
     background: linear-gradient(72deg, #3debb0 1%, #8956f3 99%);
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
+    position: relative;
 }
 
 .navigation {
@@ -71,9 +70,6 @@ img{
     transition: .4s;
 }
 
-.bar:hover {
-    background-color: #fff;
-}
 
 input{
     display: none;
