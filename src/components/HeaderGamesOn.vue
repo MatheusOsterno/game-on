@@ -51,7 +51,6 @@ header {
 }
 #menu-button {
     width: 30px;
-
 }
 
 nav{
