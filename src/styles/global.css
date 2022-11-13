@@ -28,7 +28,6 @@ A:hover {
 }
 
 main {
-
     height: calc(100vh - 120px);
     display: flex;
     justify-content: center;

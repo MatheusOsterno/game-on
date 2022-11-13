@@ -54,8 +54,8 @@
 		</div><!--main-content-->
 		<div class="bottom">
 			<div class="center">
-				<span class="credit">Criado por Matheus Osterno <a href="#">FRONT</a></span>
-				<span class="far fa-copyright">2022 Todos os diteitos reservados</span>
+				<span class="credit">Criado por <a href="#">Matheus Osterno </a></span>
+				<span class="far fa-copyright">2021 Todos os diteitos reservados</span>
 			</div>
 		</div>
 	</footer>
@@ -76,9 +76,10 @@ export default {
     font-family: 'Poppins', sans-serif;
 }
 footer{
+
     bottom: 0px;
     width: 100%;
-    background: black;
+    background: #111;
 }
 .main-content{
     display: flex;
@@ -101,7 +102,7 @@ footer{
     content: '';
     width: 15%;
     height: 2px;
-    background: #f12020;
+    background: #00ff00;
     top: -10px;
 }
 .box .content:before{
@@ -129,7 +130,7 @@ footer{
     transition: 0.3s;
 }
 .left .content .social a span:hover{
-    background: #f12020;
+    background: #00ff00;
 }
 .left .content p{
     text-align: justify;
@@ -146,7 +147,7 @@ footer{
     cursor: pointer;
 }
 .center .content .fas:hover{
-    background: #f12020;
+    background: #00ff00;
 }
 .center .content .text{
     font-size: 17px;
@@ -184,7 +185,7 @@ footer{
 .right form .btn button{
     height: 40px;
     width: 100%;
-    background: #f12020;
+    background: #058905;
     font-size: 17px;
     font-weight: 500;
     cursor: pointer;
@@ -203,7 +204,7 @@ footer{
     color: #656565;
 }
 .bottom .center a{
-    color: #f12020;
+    color: #00ff00;
     text-decoration: none;
 }
 .bottom .center a:hover{
