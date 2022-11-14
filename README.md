@@ -1,4 +1,3 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/FelipeSdsilva/gameStoreMafel?style=plastic)
 # Game Store GamesOn
 
 # Sobre este projeto
