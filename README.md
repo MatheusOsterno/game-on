@@ -1,8 +1,5 @@
 # Game Store GamesOn
 
-# Sobre este projeto
-![GitHub](https://img.shields.io/github/license/FelipeSdsilva/gameStoreMafel)
-
 ## Deploy (Front-End)
 
 https://game-on-omega.vercel.app/
