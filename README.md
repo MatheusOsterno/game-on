@@ -43,6 +43,7 @@ Baseado no ManyToMany pois um game tem N generos e N plataforams.
   - Spring boot
   - JPA / Hibernate
   - Maven
+    
 ## Implantação de produção
   - Back-End: Heroku
   - Front-End: Vercel
